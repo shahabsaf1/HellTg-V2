@@ -26,10 +26,10 @@ end
 if msg.text == "SAMIR" then
 	return "با باباییم چیکار داری"
 end
-if msg.text == "Tym" then
+if msg.text == "Pulse" then
 	return "Yes?"
 end
-if msg.text == "tym" then
+if msg.text == "pulse" then
 	return "What?"
 end
 if msg.text == "bot" then
@@ -58,7 +58,7 @@ return {
 		"^[Ss]amir$",
 		"^SAMIR$",
 		"^[Bb]ot$",
-		"^[Tt]ym$",
+		"^[Pp]ulse$",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
